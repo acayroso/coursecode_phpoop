@@ -63,5 +63,19 @@
                         
                     ?>
             </section>
+         
+         <h3>Inheritance</h3>
+            <section>
+                <p>Using inheritance to inherit properties and methods of Person class</p>
+                    <?php
+                        require_once 'class/Employee.php';
+                        $emp = new Employee('Adrian', 'Antipolo', 'Philippines');
+                        $emp->setCompany('Company T');
+                        echo "Name: {$emp->name}" . "<br/>";
+                        echo "Location: {$emp->location}" . "<br/>";
+                        echo "Country: {$emp->country}" . "<br/>";
+                        echo "Company: " . $emp->getCompany() . "<br/>";
+                    ?>
+            </section>
     </body>
 </html>
