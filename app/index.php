@@ -77,5 +77,36 @@
                         echo "Company: " . $emp->getCompany() . "<br/>";
                     ?>
             </section>
+         
+         <h3>Visibility</h3>
+            <section>
+                <p>private - can only be used by class where variable/method is defined.</p>
+                <p>protected - only class and its sub class can use variable/method by super class</p>
+                <p>public - all class that inherits a super class can call its variable/method</p>
+                <p><strong>NOTE:</strong>How this is used in programming patterns?</p>
+            </section>
+         
+         <h3>Dependency Injection</h3>
+            <section>
+                <p>Creating a class that inherits another class, through a constructor</p>
+                <p><strong>NOTE:</strong>Need to understand examples and use.</p>
+            </section>
+         
+         <h3>Implementation and interfaces</h3>
+            <section>
+                
+            </section>
+         
+         <h3>Connecting to MySQL</h3>
+            <section>
+                <p>Code PHP to connect MySQL</p>
+                <?php
+                   
+                    
+                    // Check if the provided username and password from user is found in the database.
+                    
+                    
+                ?>
+            </section>
     </body>
 </html>
